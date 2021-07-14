@@ -1,13 +1,179 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #90ccf4;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projectimg {
+  height: 350px;
+}
+
+.link-nav {
+  color: #8e8d8a;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  cursor: pointer;
+  font-family: "Oxygen", sans-serif;
+}
+
+.nav-links {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  justify-content: center;
+}
+
+.navbar {
+  font-size: x-large;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  color: #8e8d8a;
+  font-family: "Oxygen", sans-serif;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+p {
+  font-family: "Oxygen", sans-serif;
+  color: #727272;
+  font-size: large;
+  font-weight: bolder;
+}
+
+h2 {
+  font-family: "Staatliches", cursive;
+  font-size: xx-large;
+  color: black;
+  margin-bottom: 40px;
+}
+
+a:hover {
+  color: #e85a4f;
+}
+
+.description {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.mypic {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border: 2px solid gray;
+  padding: 2px;
+  margin-bottom: 100px;
+}
+
+#aboutme {
+  font-family: "Oxygen", sans-serif;
+  margin-left: 100px;
+  margin-right: 100px;
+  align-items: center;
+  font-weight: bolder;
+  margin-bottom: 30px;
+  border-bottom: solid darkgray;
+}
+
+.project-name {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+span {
+  color: #727272;
+  font-family: "Oxygen", sans-serif;
+  font-size: large;
+  font-weight: bold;
+}
+
+span:hover {
+  color: #e85a4f;
+  cursor: pointer;
+}
+
+.footer {
+  margin-top: 40px;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.project-info {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#projects {
+  display: flex;
+  flex-direction: column;
+  border-bottom: solid darkgray;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.proj-desc {
+  display: flex;
+  margin-left: 100px;
+  margin-right: 100px;
+  align-items: center;
+}
+
+#myinfo {
+  margin-top: 150px;
+}
+
+.names {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  border-bottom: solid darkgray;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.namebox {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  margin-bottom: 60px;
+  justify-content: center;
+}
+
+.name {
+  font-family: "Oxygen", sans-serif;
+  color: rgb(118, 17, 37);
+  font-size: 4rem;
+  letter-spacing: 4px;
+}
+
+.subname {
+  font-family: "Oxygen", sans-serif;
+  font-size: x-large;
+  letter-spacing: 4px;
+}
+
+.aboutmebox {
+  margin-top: 150px;
+  margin-bottom: 150px;
 }
