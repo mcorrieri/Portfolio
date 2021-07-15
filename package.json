@@ -11,7 +11,9 @@
     "react-modal-video": "^1.2.8",
     "react-scripts": "4.0.3",
     "react-scroll": "^1.8.2",
+    "react-slick": "^0.28.1",
     "react-social-icons": "^5.5.1",
+    "sass": "^1.35.2",
     "web-vitals": "^1.0.1"
   },
   "scripts": {

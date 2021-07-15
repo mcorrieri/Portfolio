@@ -3,6 +3,8 @@ import ModalVideo from "react-modal-video";
 
 function Projects() {
   const [isOpen, setOpen] = useState(false);
+  const [isOpen1, setOpen1] = useState(false);
+  const [isOpen2, setOpen2] = useState(false);
 
   return (
     <div id="projects">
@@ -20,9 +22,19 @@ function Projects() {
                 Craigslist-based app that allows users to post and buy fish
                 while adding them to their virtual aquarium
               </p>
-              <div className="project-demo">
-                <p>Watch the Demo</p>
-              </div>
+            </div>
+            <div className="project-demo">
+              <React.Fragment>
+                <ModalVideo
+                  channel="youtube"
+                  autoplay
+                  isOpen={isOpen}
+                  videoId="iyt62efBkOM"
+                  onClose={() => setOpen(false)}
+                />
+
+                <span onClick={() => setOpen(true)}>Watch the Demo</span>
+              </React.Fragment>
             </div>
           </div>
         </div>
@@ -45,19 +57,17 @@ function Projects() {
               </p>
             </div>
             <div className="project-demo">
-              <div className="project-demo">
-                <React.Fragment>
-                  <ModalVideo
-                    channel="youtube"
-                    autoplay
-                    isOpen={isOpen}
-                    videoId="lTvMRwlDYf0"
-                    onClose={() => setOpen(false)}
-                  />
+              <React.Fragment>
+                <ModalVideo
+                  channel="youtube"
+                  autoplay
+                  isOpen={isOpen1}
+                  videoId="lTvMRwlDYf0"
+                  onClose={() => setOpen1(false)}
+                />
 
-                  <span onClick={() => setOpen(true)}>Watch the Demo</span>
-                </React.Fragment>
-              </div>
+                <span onClick={() => setOpen1(true)}>Watch the Demo</span>
+              </React.Fragment>
             </div>
           </div>
         </div>
@@ -82,12 +92,12 @@ function Projects() {
               <ModalVideo
                 channel="youtube"
                 autoplay
-                isOpen={isOpen}
+                isOpen={isOpen2}
                 videoId="mXBkc_2mg1s"
-                onClose={() => setOpen(false)}
+                onClose={() => setOpen2(false)}
               />
 
-              <span onClick={() => setOpen(true)}>Watch the Demo</span>
+              <span onClick={() => setOpen2(true)}>Watch the Demo</span>
             </React.Fragment>
           </div>
         </div>
