@@ -4,13 +4,13 @@ function MyInfo() {
   return (
     <div id="myinfo">
       <h3>Let's be best friends ⬇️</h3>
-      <div>
+      <div className="sociallinks">
         <SocialIcon url="https://www.linkedin.com/in/michaelcorrieri/" />
         <SocialIcon url="https://github.com/mcorrieri" />
         <SocialIcon url="mailto:mlcorrieri@gmail.com" />
       </div>
       <div className="footer">
-        <p>Built and designed by ©Michael Corrieri</p>
+        <span>Built and designed by ©Michael Corrieri</span>
       </div>
     </div>
   );
