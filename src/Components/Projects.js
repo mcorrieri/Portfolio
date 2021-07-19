@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import ModalVideo from "react-modal-video";
-import AwesomeSlider from "react-awesome-slider";
 
 function Projects() {
   const [isOpen, setOpen] = useState(false);

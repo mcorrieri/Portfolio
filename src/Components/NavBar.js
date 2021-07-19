@@ -1,6 +1,5 @@
 import { Link } from "react-scroll";
-import { Document } from "react-pdf";
-
+import resume from "../Components/Software-Engineering-Resume-MC.pdf";
 function NavBar() {
   return (
     <div className="navbar">
@@ -15,14 +14,9 @@ function NavBar() {
       <Link className="link-nav" to="myinfo" smooth={true} duration={1000}>
         Contact Info
       </Link>
-      <Link
-        className="link-nav"
-        to="src/Components/Software-Engineering-Resume-MC.pdf"
-        smooth={true}
-        duration={1000}
-      >
+      <a href={resume} className="resume-link-nav">
         Resume
-      </Link>
+      </a>
     </div>
   );
 }

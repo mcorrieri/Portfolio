@@ -160,8 +160,6 @@ span:hover {
   flex-direction: column;
   margin-left: 50px;
   margin-bottom: 100px;
-  /* justify-content: center; */
-  /* margin-bottom: 0px; */
   padding-top: 0px;
 }
 
@@ -192,4 +190,13 @@ span:hover {
 .aboutmebox {
   margin-top: 150px;
   margin-bottom: 150px;
+}
+
+.resume-link-nav {
+  color: #8e8d8a;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  cursor: pointer;
+  font-family: "Oxygen", sans-serif;
+  text-decoration: none;
 }
