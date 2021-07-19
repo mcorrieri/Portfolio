@@ -13,11 +13,13 @@ function Projects() {
         <div className="project-name">
           <h2>Fishy</h2>
           <div className="proj-desc">
-            <img
-              src="https://i.imgur.com/ZRWpMeA.png"
-              alt="Fishy img"
-              className="projectimg"
-            />
+            <a href="https://github.com/mcorrieri/frontend-fishy">
+              <img
+                src="https://i.imgur.com/ZRWpMeA.png"
+                alt="Fishy img"
+                className="projectimg"
+              />
+            </a>
             <div className="project-info">
               <p>
                 Craigslist-based app that allows users to post and buy fish
@@ -45,11 +47,13 @@ function Projects() {
         <div className="project-name">
           <h2>Big Apple Vacations</h2>
           <div className="proj-desc">
-            <img
-              src="https://i.imgur.com/d6Ce6AV.png"
-              alt="Big Apple Vacations img"
-              className="projectimg"
-            />
+            <a href="https://github.com/pjhg14/phase4-pair-project-frontend">
+              <img
+                src="https://i.imgur.com/d6Ce6AV.png"
+                alt="Big Apple Vacations img"
+                className="projectimg"
+              />
+            </a>
             <div className="project-info">
               <p>
                 Manage vacation rentals by posting your own rentals as an admin
@@ -76,11 +80,13 @@ function Projects() {
       <div className="project-name">
         <h2>COVID-19 Vaccine Analysis </h2>
         <div className="proj-desc">
-          <img
-            src="https://i.imgur.com/P02TVwR.png"
-            alt="Vaccine Project img"
-            className="projectimg"
-          />
+          <a href="https://github.com/mcorrieri/Phase3-Frontend">
+            <img
+              src="https://i.imgur.com/P02TVwR.png"
+              alt="Vaccine Project img"
+              className="projectimg"
+            />
+          </a>
 
           <div className="project-info">
             <p>
