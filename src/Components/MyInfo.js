@@ -10,7 +10,7 @@ function MyInfo() {
         <SocialIcon url="mailto:mlcorrieri@gmail.com" />
       </div>
       <div className="footer">
-        <a href="https://www.youtube.com/watch?v=q1oNWdrlWGo">
+        <a href="https://www.youtube.com/watch?v=989-7xsRLR4">
           <span>Built and designed by ©Michael Corrieri</span>
         </a>
       </div>
