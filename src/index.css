@@ -13,6 +13,10 @@ code {
     monospace;
 }
 
+.App {
+  min-width: 800px;
+}
+
 .contact {
   display: flex;
   align-items: center;
@@ -20,7 +24,7 @@ code {
 }
 
 .projectimg {
-  height: 350px;
+  max-height: 350px;
 }
 
 .link-nav {
@@ -199,4 +203,72 @@ span:hover {
   cursor: pointer;
   font-family: "Oxygen", sans-serif;
   text-decoration: none;
+}
+
+@media (max-width: 480px) {
+  .App {
+    min-width: 100vw;
+  }
+
+  body {
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+  }
+
+  .names {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    border-bottom: solid darkgray;
+    margin-left: 100px;
+  }
+  .mypic {
+    border-radius: 50%;
+    box-shadow: 0px 0px 100px -30px rgba(70, 70, 70, 0.701);
+    /* max-height: 14rem; */
+    grid-area: 1 / 1 / 2 / 2;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 35px;
+  }
+
+  .description {
+    text-align: left;
+    line-height: 40px;
+    display: contents;
+  }
+
+  .project-info {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .proj-desc {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #aboutme {
+    display: flex;
+  }
+
+  p {
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+
+  span {
+    padding-top: 10px;
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
 }
