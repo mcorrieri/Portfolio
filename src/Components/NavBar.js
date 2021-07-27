@@ -3,8 +3,6 @@ import resume from "../Components/Software-Engineering-Resume-MC.pdf";
 function NavBar() {
   return (
     <div className="navbar">
-      {/* <Link to="top" className="logo" smooth={true} duration={1500}></Link> */}
-
       <Link className="link-nav" to="aboutme" smooth={true} duration={1000}>
         Mike Who?
       </Link>

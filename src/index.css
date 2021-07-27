@@ -208,6 +208,7 @@ span:hover {
 @media (max-width: 480px) {
   .App {
     min-width: 100vw;
+    /* margin: auto; */
   }
 
   body {
@@ -261,6 +262,7 @@ span:hover {
   p {
     font-size: 30px;
     padding-bottom: 20px;
+    text-align: center;
   }
 
   span {
