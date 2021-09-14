@@ -205,6 +205,10 @@ span:hover {
   text-decoration: none;
 }
 
+#twitter-clone-image {
+  border: 1px solid #8e8d8a;
+}
+
 @media (max-width: 480px) {
   .App {
     min-width: 100vw;

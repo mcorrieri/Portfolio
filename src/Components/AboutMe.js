@@ -6,6 +6,8 @@ import Rails from "../Assets/rails-original-wordmark.svg";
 import PSQL from "../Assets/postgresql-original.svg";
 import MUI from "../Assets/materialui-original.svg";
 import Semantic from "../Assets/semantic-logo.png";
+import Mongo from "../Assets/mongodb.png";
+import Firebase from "../Assets/firebase.png";
 
 function AboutMe() {
   return (
@@ -26,7 +28,7 @@ function AboutMe() {
           pretty cool projects and I am always ready to learn more.
         </p>
         <br></br>
-        <h2>Languages and Frameworks I Like</h2>
+        <h2>Tools I Like</h2>
         <div className="language-icons">
           <img
             src={JS}
@@ -42,6 +44,14 @@ function AboutMe() {
             height="65px"
             weight="65px"
           />
+          <img
+            src={Mongo}
+            className="icon"
+            alt="portimg"
+            height="65px"
+            weight="65px"
+          />
+          <img src={Firebase} className="icon" alt="portimg" height="65px" />
           <img src={Ruby} className="icon" alt="portimg" height="65px" />
           <img src={Rails} className="icon" alt="portimg" height="65px" />
           <img src={PSQL} className="icon" alt="portimg" height="65px" />
