@@ -28,7 +28,7 @@ function AboutMe() {
           pretty cool projects and I am always ready to learn more.
         </p>
         <br></br>
-        <h2>Tools I Like</h2>
+        <h2>Frameworks I Use</h2>
         <div className="language-icons">
           <img
             src={JS}

@@ -1,5 +1,5 @@
 import { Link } from "react-scroll";
-import resume from "../Components/Software-Engineering-Resume-MC.pdf";
+import resume from "../Components/Software-Engineer.pdf";
 function NavBar() {
   return (
     <div className="navbar">

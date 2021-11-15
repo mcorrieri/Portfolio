@@ -10,7 +10,7 @@ function MyInfo() {
         <SocialIcon url="mailto:mlcorrieri@gmail.com" />
       </div>
       <div className="footer">
-        <span>Michael Corrieri ©2021</span>
+        <h3>Michael Corrieri ©2021</h3>
       </div>
     </div>
   );

@@ -5,7 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #ffffff;
+  background-color: #090355;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg fill-opacity='0.99'%3E%3Ccircle fill='%23090355' cx='50' cy='0' r='50'/%3E%3Cg fill='%23001566' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%23002375' cx='50' cy='100' r='50'/%3E%3Cg fill='%23003083' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23003c90' cx='50' cy='200' r='50'/%3E%3Cg fill='%2300489b' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%230054a4' cx='50' cy='300' r='50'/%3E%3Cg fill='%230060ab' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%23006caf' cx='50' cy='400' r='50'/%3E%3Cg fill='%230078b2' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%230084b3' cx='50' cy='500' r='50'/%3E%3Cg fill='%23008fb3' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%23009bb0' cx='50' cy='600' r='50'/%3E%3Cg fill='%2300a6ad' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%2300b1a8' cx='50' cy='700' r='50'/%3E%3Cg fill='%2300bca3' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%2300c79d' cx='50' cy='800' r='50'/%3E%3Cg fill='%2300d196' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%2337db90' cx='50' cy='900' r='50'/%3E%3Cg fill='%2367e58b' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%238BEE86' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: contain;
 }
 
 code {
@@ -55,7 +58,7 @@ code {
 
 p {
   font-family: "Oxygen", sans-serif;
-  color: #727272;
+  color: whitesmoke;
   font-size: large;
   font-weight: bolder;
   letter-spacing: 1px;
@@ -65,12 +68,12 @@ p {
 h2 {
   font-family: "Comfortaa", cursive;
   font-size: xx-large;
-  color: #007cc7;
+  color: whitesmoke;
   margin-bottom: 40px;
 }
 
 a:hover {
-  color: #007cc7;
+  color: coral;
 }
 
 .description {
@@ -84,9 +87,17 @@ a:hover {
   height: 300px;
   width: 300px;
   border-radius: 50%;
-  border: 2px solid gray;
+  border: 2px solid whitesmoke;
   padding: 2px;
   margin-bottom: 100px;
+  overflow: hidden;
+  transition-duration: 0.8s;
+  transition-property: transform;
+}
+
+.mypic:hover {
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
 }
 
 #aboutme {
@@ -96,7 +107,7 @@ a:hover {
   align-items: center;
   font-weight: bolder;
   margin-bottom: 30px;
-  border-bottom: solid darkgray;
+  border-bottom: solid whitesmoke;
 }
 
 .project-name {
@@ -105,14 +116,14 @@ a:hover {
 }
 
 span {
-  color: #727272;
+  color: whitesmoke;
   font-family: "Comfortaa", cursive;
   font-size: large;
   font-weight: bold;
 }
 
 span:hover {
-  color: #007cc7;
+  color: coral;
   cursor: pointer;
 }
 
@@ -134,7 +145,7 @@ span:hover {
 #projects {
   display: flex;
   flex-direction: column;
-  border-bottom: solid darkgray;
+  border-bottom: solid whitesmoke;
   margin-left: 100px;
   margin-right: 100px;
 }
@@ -154,7 +165,7 @@ span:hover {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
-  border-bottom: solid darkgray;
+  border-bottom: solid whitesmoke;
   margin-left: 100px;
   margin-right: 100px;
 }
@@ -169,7 +180,7 @@ span:hover {
 
 .name {
   font-family: "Oxygen", sans-serif;
-  color: #202020;
+  color: whitesmoke;
   font-size: 4rem;
   letter-spacing: 4px;
   margin-bottom: 50px;
@@ -180,14 +191,14 @@ span:hover {
   font-family: "Oxygen", sans-serif;
   font-size: x-large;
   letter-spacing: 4px;
-  color: #007cc7;
+  color: whitesmoke;
   margin: 0;
 }
 .subname2 {
   font-family: "Oxygen", sans-serif;
   font-size: x-large;
   letter-spacing: 4px;
-  color: #007cc7;
+  color: whitesmoke;
   margin: 0;
 }
 
@@ -276,5 +287,9 @@ span:hover {
 
   h3 {
     font-size: 30px;
+  }
+
+  #foot {
+    color: black;
   }
 }
