@@ -3,7 +3,7 @@ import { SocialIcon } from "react-social-icons";
 function MyInfo() {
   return (
     <div id="myinfo">
-      <h3>Let's Connect!🚀 ⬇️</h3>
+      <h3>Let's Connect!🚀</h3>
       <div className="sociallinks">
         <SocialIcon url="https://www.linkedin.com/in/michaelcorrieri/" />
         <SocialIcon url="https://github.com/mcorrieri" />

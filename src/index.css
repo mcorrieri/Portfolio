@@ -220,6 +220,10 @@ span:hover {
   border: 1px solid #8e8d8a;
 }
 
+h3 {
+  font-size: 20px;
+}
+
 @media (max-width: 480px) {
   .App {
     min-width: 100vw;
@@ -281,11 +285,7 @@ span:hover {
   }
 
   span {
-    padding-top: 10px;
-    font-size: 30px;
-  }
-
-  h3 {
+    padding-top: 30px;
     font-size: 30px;
   }
 
