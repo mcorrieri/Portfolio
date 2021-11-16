@@ -13,7 +13,7 @@ function AboutMe() {
   return (
     <div id="aboutme">
       <div className="aboutmebox">
-        <h2>About me</h2>
+        <h2>About</h2>
         <p className="description">
           Hey there! My name is Michael Corrieri and I'm a Software Developer
           based in New York City. After moving to New York in January 2021 and
