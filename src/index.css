@@ -221,7 +221,7 @@ span:hover {
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 22px;
 }
 
 @media (max-width: 480px) {
@@ -285,11 +285,14 @@ h3 {
   }
 
   span {
-    padding-top: 30px;
     font-size: 30px;
   }
 
-  #foot {
-    color: black;
+  h3 {
+    font-size: 30px;
+  }
+
+  .project-demo {
+    margin-top: 40px;
   }
 }
