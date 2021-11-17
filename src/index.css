@@ -214,6 +214,8 @@ span:hover {
   cursor: pointer;
   font-family: "Oxygen", sans-serif;
   text-decoration: none;
+  padding: 5px;
+  border: 2px solid coral;
 }
 
 #twitter-clone-image {
