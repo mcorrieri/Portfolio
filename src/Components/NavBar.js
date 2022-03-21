@@ -1,5 +1,4 @@
 import { Link } from "react-scroll";
-// import resume from "../Components/SE-Resume.pdf";
 import resume from "../Components/Resume--f.pdf";
 function NavBar() {
   return (
