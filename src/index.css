@@ -28,6 +28,7 @@ code {
 
 .projectimg {
   max-height: 350px;
+  border-radius: 3%;
 }
 
 .link-nav {

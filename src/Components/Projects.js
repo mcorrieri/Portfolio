@@ -31,7 +31,7 @@ function Projects() {
             <div className="project-info">
               <p>
                 Craigslist-based app that allows users to sell and buy fish
-                while adding them to their virtual aquarium. Built with:
+                while adding them to their virtual aquarium.
               </p>
               <img
                 src={ReactJS}
@@ -79,7 +79,7 @@ function Projects() {
         </div>
       </div>
       <div className="project-name">
-        <h2>COVID-19 Vaccine Analysis </h2>
+        <h2>COVID-19 Vaccine Map </h2>
         <div className="proj-desc">
           <a href="https://github.com/mcorrieri/Phase3-Frontend">
             <img
@@ -92,7 +92,7 @@ function Projects() {
           <div className="project-info">
             <p>
               Public health app which graphically represents vaccination rates
-              in the US using ChartJS. Built with:
+              in the US using Chart.js.
             </p>
             <img
               src={ReactJS}
@@ -140,7 +140,7 @@ function Projects() {
             <p>
               A fun and new way to play Tic Tac Toe! Allows players to choose
               from a dropdown of emojis instead of using those antiquated Xs and
-              Os. Built with:{" "}
+              Os.
             </p>
             <img
               src={ReactJS}
@@ -178,9 +178,7 @@ function Projects() {
             />
           </a>
           <div className="project-info">
-            <p>
-              Twitter clone app created using React and Firebase. Built with:
-            </p>
+            <p>Twitter clone app created using React and Firebase.</p>
             <img
               src={ReactJS}
               className="icon"
@@ -229,7 +227,6 @@ function Projects() {
                 Airbnb app which allows users to host or rent apartments in New
                 York City. Renters can book appointments using a calendar and
                 can view or cancel any appointment on their appointments page.
-                Built with:
               </p>
               <img
                 src={ReactJS}
