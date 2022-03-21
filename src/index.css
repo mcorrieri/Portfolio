@@ -84,9 +84,9 @@ a:hover {
 }
 
 .mypic {
-  height: 300px;
-  width: 300px;
-  border-radius: 50%;
+  height: auto;
+  width: 30%;
+  border-radius: 5%;
   border: 2px solid whitesmoke;
   padding: 2px;
   margin-bottom: 100px;
@@ -247,8 +247,6 @@ h3 {
   }
   .mypic {
     border-radius: 50%;
-    box-shadow: 0px 0px 100px -30px rgba(70, 70, 70, 0.701);
-    /* max-height: 14rem; */
     grid-area: 1 / 1 / 2 / 2;
   }
 

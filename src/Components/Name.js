@@ -1,7 +1,7 @@
 function Name() {
   return (
     <div className="names">
-      <img className="mypic" src="profilepic.jpeg" alt="logo" />
+      <img className="mypic" src="IMG_5434.jpg" alt="logo" />
       <div className="namebox">
         <h1 className="name">
           Michael <br></br> Corrieri
