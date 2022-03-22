@@ -31,36 +31,38 @@ function Projects() {
             <div className="project-info">
               <p>
                 Craigslist-based app that allows users to sell and buy fish
-                while adding them to their virtual aquarium.
+                while adding them to their virtual aquarium
               </p>
-              <img
-                src={ReactJS}
-                className="icon"
-                alt="portimg"
-                height="65px"
-                weight="65px"
-              />
-              <img
-                src={JS}
-                className="icon"
-                alt="portimg"
-                height="65px"
-                weight="65px"
-              />
-              <img src={Rails} className="icon" alt="portimg" height="65px" />
-              <img
-                src={Semantic}
-                className="icon"
-                alt="portimg"
-                height="65px"
-              />
-              <img
-                src={JWTlogo}
-                className="icon"
-                alt="portimg"
-                height="65px"
-                width="auto"
-              />
+              <div className="project-tools">
+                <img
+                  src={ReactJS}
+                  className="icon"
+                  alt="portimg"
+                  height="65px"
+                  weight="65px"
+                />
+                <img
+                  src={JS}
+                  className="icon"
+                  alt="portimg"
+                  height="65px"
+                  weight="65px"
+                />
+                <img src={Rails} className="icon" alt="portimg" height="65px" />
+                <img
+                  src={Semantic}
+                  className="icon"
+                  alt="portimg"
+                  height="65px"
+                />
+                <img
+                  src={JWTlogo}
+                  className="icon"
+                  alt="portimg"
+                  height="65px"
+                  width="auto"
+                />
+              </div>
             </div>
             <div className="project-demo">
               <React.Fragment>
@@ -92,24 +94,26 @@ function Projects() {
           <div className="project-info">
             <p>
               Public health app which graphically represents vaccination rates
-              in the US using Chart.js.
+              in the US using Chart.js
             </p>
-            <img
-              src={ReactJS}
-              className="icon"
-              alt="portimg"
-              height="65px"
-              weight="65px"
-            />
-            <img
-              src={JS}
-              className="icon"
-              alt="portimg"
-              height="65px"
-              weight="65px"
-            />
-            <img src={Ruby} className="icon" alt="portimg" height="65px" />
-            <img src={HTML} className="icon" alt="portimg" height="65px" />
+            <div className="project-tools">
+              <img
+                src={ReactJS}
+                className="icon"
+                alt="portimg"
+                height="65px"
+                weight="65px"
+              />
+              <img
+                src={JS}
+                className="icon"
+                alt="portimg"
+                height="65px"
+                weight="65px"
+              />
+              <img src={Ruby} className="icon" alt="portimg" height="65px" />
+              <img src={HTML} className="icon" alt="portimg" height="65px" />
+            </div>
           </div>
           <div className="project-demo">
             <React.Fragment>
@@ -140,29 +144,31 @@ function Projects() {
             <p>
               A fun and new way to play Tic Tac Toe! Allows players to choose
               from a dropdown of emojis instead of using those antiquated Xs and
-              Os.
+              Os
             </p>
-            <img
-              src={ReactJS}
-              className="icon"
-              alt="portimg"
-              height="65px"
-              weight="65px"
-            />
-            <img
-              src={JS}
-              className="icon"
-              alt="portimg"
-              height="65px"
-              weight="65px"
-            />
-            <img
-              src={Semantic}
-              className="icon"
-              alt="portimg"
-              height="50px"
-              weight="50px"
-            />
+            <div className="project-tools">
+              <img
+                src={ReactJS}
+                className="icon"
+                alt="portimg"
+                height="65px"
+                weight="65px"
+              />
+              <img
+                src={JS}
+                className="icon"
+                alt="portimg"
+                height="65px"
+                weight="65px"
+              />
+              <img
+                src={Semantic}
+                className="icon"
+                alt="portimg"
+                height="50px"
+                weight="50px"
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -178,35 +184,37 @@ function Projects() {
             />
           </a>
           <div className="project-info">
-            <p>Twitter clone app created using React and Firebase.</p>
-            <img
-              src={ReactJS}
-              className="icon"
-              alt="portimg"
-              height="65px"
-              weight="65px"
-            />
-            <img
-              src={JS}
-              className="icon"
-              alt="portimg"
-              height="65px"
-              weight="65px"
-            />
-            <img
-              src={Firebase}
-              className="icon"
-              alt="portimg"
-              height="50px"
-              weight="50px"
-            />
-            <img
-              src={MUI}
-              className="icon"
-              alt="portimg"
-              height="65px"
-              weight="65px"
-            />
+            <p>Twitter clone app created using React and Firebase</p>
+            <div className="project-tools">
+              <img
+                src={ReactJS}
+                className="icon"
+                alt="portimg"
+                height="65px"
+                weight="65px"
+              />
+              <img
+                src={JS}
+                className="icon"
+                alt="portimg"
+                height="65px"
+                weight="65px"
+              />
+              <img
+                src={Firebase}
+                className="icon"
+                alt="portimg"
+                height="50px"
+                weight="50px"
+              />
+              <img
+                src={MUI}
+                className="icon"
+                alt="portimg"
+                height="65px"
+                weight="65px"
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -226,36 +234,38 @@ function Projects() {
               <p>
                 Airbnb app which allows users to host or rent apartments in New
                 York City. Renters can book appointments using a calendar and
-                can view or cancel any appointment on their appointments page.
+                can view or cancel any appointment on their appointments page
               </p>
-              <img
-                src={ReactJS}
-                className="icon"
-                alt="portimg"
-                height="65px"
-                weight="65px"
-              />
-              <img
-                src={JS}
-                className="icon"
-                alt="portimg"
-                height="65px"
-                weight="65px"
-              />
-              <img src={Rails} className="icon" alt="portimg" height="65px" />
-              <img
-                src={Semantic}
-                className="icon"
-                alt="portimg"
-                height="65px"
-              />
-              <img
-                src={JWTlogo}
-                className="icon"
-                alt="portimg"
-                height="65px"
-                width="auto"
-              />
+              <div className="project-tools">
+                <img
+                  src={ReactJS}
+                  className="icon"
+                  alt="portimg"
+                  height="65px"
+                  weight="65px"
+                />
+                <img
+                  src={JS}
+                  className="icon"
+                  alt="portimg"
+                  height="65px"
+                  weight="65px"
+                />
+                <img src={Rails} className="icon" alt="portimg" height="65px" />
+                <img
+                  src={Semantic}
+                  className="icon"
+                  alt="portimg"
+                  height="65px"
+                />
+                <img
+                  src={JWTlogo}
+                  className="icon"
+                  alt="portimg"
+                  height="65px"
+                  width="auto"
+                />
+              </div>
             </div>
             <div className="project-demo">
               <React.Fragment>

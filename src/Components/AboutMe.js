@@ -26,7 +26,10 @@ function AboutMe() {
           healthcare and wellness industries.
         </p>
         <br></br>
-        <h2>Languages/Frameworks I Use</h2>
+        <br></br>
+        <br></br>
+
+        <h2>Tools I Use</h2>
         <div className="language-icons">
           <img
             src={JS}

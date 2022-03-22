@@ -4,7 +4,7 @@ function MyInfo() {
   return (
     <div id="myinfo">
       <h3>Let's Connect!🚀</h3>
-      <div className="sociallinks">
+      <div className="social-links">
         <SocialIcon url="https://www.linkedin.com/in/michaelcorrieri/" />
         <SocialIcon url="https://github.com/mcorrieri" />
         <SocialIcon url="mailto:mlcorrieri@gmail.com" />
